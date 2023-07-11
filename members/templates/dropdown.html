@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Select Box Example</title>
+  </head>
+  <body>
+    <h1>Select Options:</h1>
+    <form method="post">
+      {% csrf_token %}
+        <label><input type="checkbox" name="option1" value="M2"> M2</label><br>
+        <label><input type="checkbox" name="option2" value="NASDAQCOM"> NASDAQCOM</label><br>
+        <label><input type="checkbox" name="option3" value="UMCSENT"> UMCSENT</label><br>
+        <input type="submit" value="Submit">
+    </form>
+
+
+  </body>
+</html>
